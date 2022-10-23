@@ -1,4 +1,5 @@
-#include <math.h>
+//#include <math.h>
+//#include<iostream>
 class Wektor2D
 {
     public:
@@ -25,11 +26,11 @@ class Wektor2D
     double getX(){return x;}
     double getY(){return y;}
 
-    double norm(){
+    /*double norm(){
         double n = pow(x*x+y*y,0.5);
         return n;
     }
-
+*/
     void print()
     {
         std::cout<<"Wspolrzedna X:"<<x<<"\t Wspolrzedna y:"<<y<<"\n";
