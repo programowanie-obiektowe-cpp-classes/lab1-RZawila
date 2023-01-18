@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Zaliczenie",
-      "setup": "mkdir -p build; cd build; cmake ../; make; chmod a+x zal",
+      "setup": "cmake ./; make;",
       "run": "./zal",
       "input": "",
       "output": "",
